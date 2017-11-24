@@ -8,5 +8,6 @@ def test(*args, **kwargs):
 def say(a, b):
     print(a)
 
-test(a=1, b=2)
+if __name__ == '__main__':
+    test(a=1, b=2)
 
